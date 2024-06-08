@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(185, 182, 178);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+#container{
+width: 100%;
+}
+
+/* Barra de Navegacion */
+
+nav {
+    background-color: rgb(207, 207, 207);
+    height: 50px;
+    border: solid black 1px;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    line-height: 0px;
+    font-family: Arial, Helvetica, sans-serif, white; 
+}
+
+.clearfix{
+    clear: both;
+}
+.logoinicio{
+    text-align: center;
+    line-height: 5px;
+    margin: 0px;
+}
+
+/* Sobre Nosotros */
+.sbntext {
+    margin: 50px;
+    text-align: center;
+}
+
+.sbnimage {
+    position: relative;
+    left: 34%;
+    margin: 120px;
+    height: 400px;
+    width: 400px;
+}
+
+/* Contactanos */
+
+.contxt {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+.conbod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.formulario {
+    background: linear-gradient(
+        50deg,
+        rgb(58, 58, 63) 50%,
+        rgba(86, 94, 105, 0.7)),
+        url(images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        width: 1000px;
+        border-radius: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+input , textarea {
+    padding: 17px 14px;
+    background-color: #848588;
+    border: 0;
+    font-size: 15px;
+    color: azure;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus {
+    outline: 1px solid azure;
+
+}
+
+.btn {
+    background-color: #000000;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3d3434;
+}
+
+/* Encuentranos */
+
+.mapa {
+    text-align: center;
+    margin: 60px;
+}
+
+/* Pie de Pagina */
+.piedepagina {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+/* Main */
+.mxauto {
+ 
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    left: 33%;
+    position: relative;
+}
+.item {
+    border-radius: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.20);
+}
+.info-product{
+    padding: 15px 30px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.descrip {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background-color: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 10px;
+    cursor: pointer;
+}
